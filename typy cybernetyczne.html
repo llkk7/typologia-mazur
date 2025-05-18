@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Test charakteru Mazura – 4 osie, 40 pytań</title>
+  <style>
+    body { background: #181a1c; color: #eee; font-family: sans-serif; margin: 2em; }
+    label, select { display: block; margin: 1em 0 0.3em 0; }
+    .result { margin-top: 2em; font-size: 1.2em; }
+    .type { font-weight: bold; color: #a3ffcc; }
+    fieldset { border: 1px solid #344; padding: 1em; }
+    legend { color: #a3ffcc; }
+    .percent { color: #7cf9e4; }
+    .btns { margin: 1.5em 0 0.5em 0; display: flex; gap: 1em; }
+    button { padding: 0.6em 1.5em; border-radius: 8px; border: none; background: #244; color: #a3ffcc; font-size: 1em; cursor: pointer; }
+    button:hover { background: #38605b; color: #fff; }
+  </style>
+</head>
+<body>
+  <h2>Test charakteru Mazura (4 osie, 40 pytań)</h2>
+  <form id="mazurTest">
+    <fieldset>
+      <legend>Egzodynamizm</legend>
+      <label>1. Lubię przewodzić grupie i inspirować innych do działania.<select name="egzo1"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>2. Mam satysfakcję, gdy moje sugestie wpływają na decyzje zespołu.<select name="egzo2"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>3. Łatwo przyciągam uwagę i potrafię zachęcić innych do działania.<select name="egzo3"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>4. Potrafię głośno wyrażać swoje opinie nawet w trudnych sytuacjach.<select name="egzo4"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>5. W sytuacjach kryzysowych zwykle przejmuję inicjatywę.<select name="egzo5"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>6. Lubię udzielać rad i dzielić się swoimi doświadczeniami.<select name="egzo6"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>7. Często motywuję innych, nawet jeśli sam nie jestem liderem.<select name="egzo7"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>8. Chętnie angażuję się w sprawy społeczne lub wolontariat.<select name="egzo8"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>9. Lubię przekonywać innych do swoich pomysłów.<select name="egzo9"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>10. Zwykle czuję się dobrze, gdy jestem w centrum uwagi.<select name="egzo10"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+    </fieldset>
+    <fieldset>
+      <legend>Endodynamizm</legend>
+      <label>11. Potrzebuję czasu w samotności, żeby przemyśleć ważne sprawy.<select name="endo1"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>12. Rzadko dzielę się głębokimi przemyśleniami z innymi.<select name="endo2"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>13. Zamiast działać, wolę rozważać różne opcje w głowie.<select name="endo3"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>14. Często analizuję swoje emocje i motywacje.<select name="endo4"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>15. Lubię mieć własne sekrety i nie wszystko ujawniam innym.<select name="endo5"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>16. Potrafię odciąć się od presji otoczenia i działać po swojemu.<select name="endo6"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>17. Przeżywam wiele wewnętrznych przemian, o których inni nie wiedzą.<select name="endo7"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>18. Wolę najpierw wszystko samodzielnie przeanalizować, zanim poproszę o pomoc.<select name="endo8"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>19. Intuicja i własne odczucia są dla mnie ważniejsze niż opinia otoczenia.<select name="endo9"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>20. Największą zmianę widzę u siebie w środku, nie na zewnątrz.<select name="endo10"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+    </fieldset>
+    <fieldset>
+      <legend>Statyzm</legend>
+      <label>21. Czuję się dobrze, gdy wszystko przebiega według ustalonego planu.<select name="stat1"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>22. Wolę przewidywalność niż zaskakujące sytuacje.<select name="stat2"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>23. Zazwyczaj trzymam się raz obranych zwyczajów.<select name="stat3"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>24. Rzadko podejmuję impulsywne decyzje.<select name="stat4"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>25. Wolę stopniowe zmiany niż rewolucje.<select name="stat5"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>26. Staram się utrzymywać porządek i regularność w codziennych obowiązkach.<select name="stat6"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>27. Lubię mieć wyznaczone jasne zasady postępowania.<select name="stat7"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>28. Cenię tradycje i szanuję przeszłość.<select name="stat8"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>29. Zmieniam swoje zdanie tylko po dłuższym namyśle.<select name="stat9"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>30. Wolę wykonywać powtarzalne czynności niż ryzykować nieznane.<select name="stat10"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+    </fieldset>
+    <fieldset>
+      <legend>Dynamizm</legend>
+      <label>31. Szybko się nudzę rutyną i szukam nowych wyzwań.<select name="dyn1"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>32. Często zmieniam plany w ostatniej chwili.<select name="dyn2"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>33. Lubię próbować nowych rzeczy, nawet jeśli wiąże się to z ryzykiem.<select name="dyn3"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>34. Często podejmuję szybkie decyzje pod wpływem impulsu.<select name="dyn4"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>35. Zdarza mi się rozpoczynać nowe projekty, zanim skończę stare.<select name="dyn5"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>36. Lubię mieć wiele otwartych możliwości jednocześnie.<select name="dyn6"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>37. Działam najlepiej pod presją zmieniających się okoliczności.<select name="dyn7"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>38. Lubię improwizować i reagować spontanicznie.<select name="dyn8"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>39. Lubię szybko zmieniające się środowiska lub zadania.<select name="dyn9"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+      <label>40. Najwięcej uczę się wtedy, gdy coś mnie zaskakuje.<select name="dyn10"><option value="1">zdecydowanie nie</option><option value="2">raczej nie</option><option value="3">neutralnie</option><option value="4">raczej tak</option><option value="5">zdecydowanie tak</option></select></label>
+    </fieldset>
+    <div class="btns">
+      <button type="button" onclick="mazurResult()">Oblicz wynik</button>
+    </div>
+  </form>
+  <div class="result" id="result"></div>
+
+  <script>
+    function mazurResult() {
+      let f = document.forms['mazurTest'];
+      function sum(prefix) {
+        let total = 0;
+        for (let i = 1; i <= 10; i++) {
+          total += parseInt(f[prefix + i].value);
+        }
+        return total;
+      }
+      let egzo = sum("egzo");
+      let endo = sum("endo");
+      let stat = sum("stat");
+      let dyn  = sum("dyn");
+
+      let E = egzo - endo;
+      let S = stat - dyn;
+
+      let eP = (E + 40) / 80;
+      let sP = (S + 40) / 80;
+      let neP = 1 - eP;
+      let nsP = 1 - sP;
+
+      let egzostatyk   = eP * sP;
+      let egzodynamik  = eP * nsP;
+      let endostatyk   = neP * sP;
+      let endodynamik  = neP * nsP;
+
+      let sumAll = egzostatyk + egzodynamik + endostatyk + endodynamik;
+      let percent = t => Math.round(100 * t / sumAll);
+
+      let typeList = [
+        { name: "egzostatyk", val: egzostatyk },
+        { name: "egzodynamik", val: egzodynamik },
+        { name: "endostatyk", val: endostatyk },
+        { name: "endodynamik", val: endodynamik }
+      ];
+
+      typeList.sort((a, b) => b.val - a.val);
+
+      let resultArr = [];
+      for (let t of typeList) {
+        resultArr.push(`<span class="type">${t.name}</span> <span class="percent">(${percent(t.val)}%)</span>`);
+      }
+
+      let mainType = typeList[0].name;
+      let mainPerc = percent(typeList[0].val);
+
+document.getElementById("result").innerHTML = `
+  <p><b>Twój typ główny:</b> <span class="type">${mainType}</span>
+    <span class="percent">(${mainPerc}%)</span>
+  <br> <b>Domieszki pozostałych typów:</b><br>${resultArr.slice(1).join("<br>")}</p>
+  <p>Suma egzodynamizmu: <b>${egzo}</b><br>
+  Suma endodynamizmu: <b>${endo}</b><br>
+  Suma statyzmu: <b>${stat}</b><br>
+  Suma dynamizmu: <b>${dyn}</b></p>
+`;
+    }
+
+    function randomAnswers() {
+      let prefixes = ["egzo", "endo", "stat", "dyn"];
+      let f = document.forms['mazurTest'];
+      prefixes.forEach(prefix => {
+        for (let i = 1; i <= 10; i++) {
+          let sel = f[prefix + i];
+          if (sel) {
+            sel.value = (Math.floor(Math.random() * 5) + 1).toString();
+          }
+        }
+      });
+    }
+  </script>
+</body>
+</html>
